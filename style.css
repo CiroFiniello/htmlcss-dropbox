@@ -17,6 +17,9 @@ nav{
 nav ul li{
   display: inline-block;
   list-style-type: style type none;
-
+}
+div.jumbotron{
+  display: flex;
+  justify-content: center;
 }
 
