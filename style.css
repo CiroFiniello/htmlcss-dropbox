@@ -7,12 +7,16 @@
 header{
   background-color:#b4d0e7 ;
 }
-
-nav ul li{
-  list-style-type: style type none;
-}
-
-nav ul {
+nav{
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 2rem;
 }
+nav ul li{
+  display: inline-block;
+  list-style-type: style type none;
+
+}
+
