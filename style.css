@@ -127,6 +127,13 @@ section.team >h3{
  padding-top: 1rem;
  font-size: 1.2rem;
 }
+section.ph-dropbox{
+  height: 70%;
+  width: 70%;
+}
+div.ph-dropbox-container-left{
+  display: flex; 
+}
 .bg-blu{
   background-color:#0061ff;
 }
