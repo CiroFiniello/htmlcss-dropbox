@@ -62,7 +62,8 @@ text-align: left;
 padding: 3rem 5rem;
 }
 .hr-article{
-  padding: 2rem;
+  padding: 2rem 0rem;
+  width: 30%;
 }
 article.cards .upcard ul{
   list-style-type: none;
@@ -70,8 +71,17 @@ article.cards .upcard ul{
 article.cards .upcard ul li{
   padding-bottom: 1rem;
 }
+div.main-contenitor{
+  flex-direction: column;
+}
 div.center-main{
+  margin: 0 10rem;
   width: 80%;
   display: flex;
   justify-content: space-around;
+  align-content: center; 
+}
+section.team{
+  margin: 5rem;
+  border: 1px solid black;
 }
