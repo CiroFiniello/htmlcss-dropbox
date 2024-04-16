@@ -46,9 +46,32 @@ div.radio{
 padding: 3rem;
 }
 input{
-  margin: 0.4rem 0 0 1rem;
+  margin: 0.1rem 0.4rem 0 1rem;
 }
 .up-article  > p {
 display: inline-block;
 }
-
+.flex{
+  display: flex;
+}
+article.cards{
+  width: 20%;
+padding-left: 5rem;
+border: 1px solid black;
+text-align: left;
+padding: 3rem 5rem;
+}
+.hr-article{
+  padding: 2rem;
+}
+article.cards .upcard ul{
+  list-style-type: none;
+}
+article.cards .upcard ul li{
+  padding-bottom: 1rem;
+}
+div.center-main{
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
