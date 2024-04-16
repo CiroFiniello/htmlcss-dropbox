@@ -35,3 +35,20 @@ div.jumbotron{
 .up-jumb{
 text-align: center;
 }
+.main-contenitor{
+  padding: 3rem;
+}
+.up-article{
+
+}
+div.radio{
+  display:flex;
+padding: 3rem;
+}
+input{
+  margin: 0.4rem 0 0 1rem;
+}
+.up-article  > p {
+display: inline-block;
+}
+
