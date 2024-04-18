@@ -172,13 +172,6 @@ div.container-boxes{
   filter: invert(1);
   transform: scale(.6);  
 }
-div.box {
-  display: flex;
-  flex-direction: row;
-  background-color: grey;
-  width: 100%;
-  justify-content: center;
-}
 .florida{
   align-items: center;
   filter: invert(1);
@@ -195,6 +188,21 @@ div.box {
 }
 #redbox{
   background-color:#ff1c1c ;
+}
+div.center-box{
+  flex-direction: column;
+  padding: 2rem;
+  gap: 4rem;
+  background-color: #f5f5f5;
+}
+.hr{
+  border: 1px solid grey;
+  width: 30%;
+  filter: opacity(.6);
+}
+div.center-box-lw > p{
+  font-size: 1.6rem;
+  padding-bottom: 3rem;
 }
 
 .bg-blu{
