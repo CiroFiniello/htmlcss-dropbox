@@ -156,7 +156,6 @@ div.container-boxes{
 }
 .boxes{
   background-color: blueviolet;
-  border: 1rem solid black;
   width: calc(100vw / 3);
   height: calc(100vw / 3);
   flex-wrap:wrap ;
@@ -204,7 +203,18 @@ div.center-box-lw > p{
   font-size: 1.6rem;
   padding-bottom: 3rem;
 }
-
+#diffredbox{
+  background-color: #d5001f;
+}
+#lightblue{
+  background-color: #b4d0e7;
+}
+#blue{
+  background-color:#0d2481 ;
+}
+#yellow{
+  background-color: #ffd830;
+}
 .bg-blu{
   background-color:#0061ff;
 }
