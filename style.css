@@ -147,6 +147,7 @@ div.container-dropbox-business{
 div.db-bs-card{
   width: 20%;
 }
+/* start to regulate boxex css */
 div.big-boxes-head{
   text-align: left;
   padding-left: 13%;
@@ -175,6 +176,7 @@ div.container-boxes{
   align-items: center;
   filter: invert(1);
 }
+/* left boxes color ids */
 #greenbox{
   background-color: #a2d39b;
   border: 1rem solid #d1e9cd;
@@ -188,6 +190,7 @@ div.container-boxes{
 #redbox{
   background-color:#ff1c1c ;
 }
+/* center box css */
 div.center-box{
   flex-direction: column;
   padding: 2rem;
@@ -203,6 +206,7 @@ div.center-box-lw > p{
   font-size: 1.6rem;
   padding-bottom: 3rem;
 }
+ /* right color boxes ids */
 #diffredbox{
   background-color: #d5001f;
 }
@@ -215,6 +219,20 @@ div.center-box-lw > p{
 #yellow{
   background-color: #ffd830;
 }
+ /* Boxex footer css */
+.boxes-ft{
+  width: 100%;
+  padding: 5rem;
+  justify-content: space-around;
+  font-size: 2rem;
+  background-color: #b4d0e7;
+}
+#prova{
+  font-size: 1.45rem;
+ padding: 2rem 3rem;
+}
+
+
 .bg-blu{
   background-color:#0061ff;
 }
