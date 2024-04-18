@@ -229,10 +229,25 @@ div.center-box-lw > p{
 }
 #prova{
   font-size: 1.45rem;
- padding: 2rem 3rem;
+  padding: 2rem 3rem;
+}
+/* faq css */
+.faq{
+  flex-direction: column;
+  padding: 5rem 10rem;
+  width: 80%;
+  font-size: 1.2rem;
 }
 
-
+.faq-main{
+display: flex;
+justify-content: space-between;
+padding-top: 2rem;
+}
+.hrline{
+  border-bottom: 1px solid black;
+  padding: 2rem;
+}
 .bg-blu{
   background-color:#0061ff;
 }
