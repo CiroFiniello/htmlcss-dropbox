@@ -133,6 +133,21 @@ section.ph-dropbox{
 div.ph-dropbox-container-left{
   display: flex; 
 }
+.partner-img{
+  width: 55%;
+}
+div.ph-dropbox-container-right {
+  width: 35%;
+  padding-left: 3rem;
+  font-size: 1.5rem
+}
+div.btn-partner{
+  padding: 3rem 0;
+}
+.button{
+  padding: 1rem;
+  font-size: 1.5rem;
+}
 section.dropbox-business{
   flex-direction: column;
   padding: 3rem 10rem;
