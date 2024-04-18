@@ -188,11 +188,32 @@ div.box-img-florida{
 }
 div.box-img{
   transform: scale(50%);
-  align-items: center;
-  
+  align-items: center;  
 }
 .img-text{
   filter: invert(1);
+}
+section.box-center{
+  width: 30%;
+}
+.box-center{
+  background-color: #e54040 ;
+  padding: 1rem;
+  flex-direction: column;
+}
+.box-center-up{
+  flex-direction: column;
+}
+img.box-center-img{
+  transform: scale(50%);
+}
+.hr-center{  
+ width: 5rem;
+ flex-direction: column;
+}
+#hrcenter{
+  display: flex;
+  flex-direction:column ;
 }
 .bg-blu{
   background-color:#0061ff;
