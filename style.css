@@ -147,6 +147,9 @@ div.container-dropbox-business{
 div.db-bs-card{
   width: 20%;
 }
+.ct-img{
+  width: 100%;
+}
 /* start to regulate boxex css */
 div.big-boxes-head{
   text-align: left;
@@ -238,7 +241,6 @@ div.center-box-lw > p{
   width: 80%;
   font-size: 1.2rem;
 }
-
 .faq-main{
 display: flex;
 justify-content: space-between;
@@ -247,6 +249,44 @@ padding-top: 2rem;
 .hrline{
   border-bottom: 1px solid black;
   padding: 2rem;
+}
+/* footer css */
+footer{
+width: 100wh;
+background-color: black ; 
+}
+footer ul li{
+  list-style-type: none;
+  padding: .2rem;
+}
+div.footer-contenitor{
+ 
+}
+div.footer-list{
+  padding: 4rem;
+  color: white;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 1.5rem;
+}
+footer li:first-child {
+  font-weight: bolder;
+  padding-bottom: 1rem;
+  font-size: 2rem;
+}
+div.footer-hrline{
+  border: 1px solid grey;
+  width: 30%;
+}
+#IT{
+  color: white;
+  font-size: 1.3rem;
+  padding: 2rem;
+}
+.footerline{
+  flex-direction: column;
+  align-items: first baseline;
+  padding: 2rem 10.3rem;
 }
 .bg-blu{
   background-color:#0061ff;
