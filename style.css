@@ -17,34 +17,35 @@ nav{
 nav ul li{
   display: inline-block;
   list-style-type: style type none;
+  font-size: large;
+  padding: 0rem 1rem;
 }
 div.jumbotron{
   display: flex;
   justify-content: center;
-  padding-bottom: 10rem;
+  align-items: center;
 }
 .jumbo-img{
-  position: absolute;
+  /* position: absolute; */
   bottom: 0.1rem;
   transform: scale(.5);
   /* width: 100%; */
 }
 .big-column{
-  width: 30%;
+  width: 20%;
   display: flex;
   flex-direction: column;
-  padding: 5rem 0rem;
-  padding-left: 20rem;
+  justify-content: center;
+  margin: auto;
 }
 .small-column{
-
   width: 70%;
-
 }
 .up-jumb{
 text-align: center;
 font-size: 3rem;
-padding: 0rem 30rem;
+width: 70%;
+margin: auto;
 }
 .main-contenitor{
   /* padding: 3rem; */
@@ -53,13 +54,33 @@ justify-content: center;
 align-items: center;
 padding-top: 5rem;
 }
-.up-article{
-display: flex;
-align-items: flex-start;
+#accedi{
+  font-size: 1.5rem;
+  background-color: transparent;
+  border: transparent;
+}
+#inizia{
+  font-size: 1.5rem;
+  background-color: #0061ff;
+  color: white;
+  padding: .5rem;
+}
+.up-article > h1{
+  font-size: 4rem;
+  text-align: left;
+  padding-right: 40rem;
 }
 div.radio{
   display:flex;
-padding: 3rem;
+padding: 3rem 22rem;
+width: 100%;
+justify-content: flex-start;
+}
+div.radio-cont{
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  justify-content: flex-start; 
 }
 input{
   margin: 0.1rem 0.4rem 0 1rem;
@@ -181,7 +202,13 @@ div.db-bs-card{
 div.big-boxes-head{
   text-align: left;
   padding-left: 13%;
+  font-size: 2rem;
+  padding-bottom: 8rem;
 }
+div.big-boxes-head > h1{
+  padding-bottom: 3rem;
+}
+
 div.container-boxes{
   background-color:#f5f5f5;
 }
