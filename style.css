@@ -21,25 +21,37 @@ nav ul li{
 div.jumbotron{
   display: flex;
   justify-content: center;
-  padding: 7rem;
+  padding-bottom: 10rem;
+}
+.jumbo-img{
+  position: absolute;
+  bottom: 0.1rem;
+  transform: scale(.5);
+  /* width: 100%; */
 }
 .big-column{
-  width: 20%;
+  width: 30%;
   display: flex;
   flex-direction: column;
+  padding: 5rem 0rem;
+  padding-left: 20rem;
 }
 .small-column{
-  width: 50%;
-  padding-left: 5rem;
+
+  width: 70%;
+
 }
 .up-jumb{
 text-align: center;
+font-size: 3rem;
+padding: 0rem 30rem;
 }
 .main-contenitor{
   /* padding: 3rem; */
 display: flex;
 justify-content: center;
 align-items: center;
+padding-top: 5rem;
 }
 .up-article{
 display: flex;
